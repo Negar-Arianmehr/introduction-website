@@ -1,0 +1,529 @@
+/*============= RESETS ============= font-family: 'Lato' PT Serif, sans-serif; */
+
+/*-- iPhone X Remove Gutters --*/
+html {
+    padding: env(safe-area-inset);
+}
+
+/*-- Prevent Horizontal Scrolling & Font Style --*/
+html body {
+    overflow-x: hidden;
+    font-family: 'PT Serif', serif;
+    color: #383d41;
+    font-size: medium;
+}
+
+.text-color {
+    color: turquoise;
+}
+/*--- Nav Scrolling Offset --*/
+.offset:before {
+    content: "";
+    height: 4rem;
+    display: block;
+    margin-top: -4rem;
+}
+
+/*--- Extra Bootstrap Column Padding --*/
+[class*="clo-"] {
+    padding: 1rem;
+}
+
+
+/*============= NAVIGATION =============*/
+.navbar-brand img{
+    height: 40px;
+    width: 40px;
+}
+.navbar {
+    padding: .7rem 1rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    font-weight: bold;
+    font-size: medium;
+    transition: background-color .5s ease;
+}
+.navbar-nav li {
+   padding-right: .8rem;
+}
+
+/*FIXME Car*/
+
+
+.navbar-toggler .svg-inline--fa {
+    width: 30px;
+    height: 20px;
+    /*background-color: #0f6674;*/
+    border: 2px;
+    color: #fff3cd;
+}
+/*.navbar-toggler-icon {*/
+/*    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");*/
+/*}*/
+
+
+.navbar-nav .nav-link {
+    color: #ebfbfa;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover {
+    color: #2c9c91;
+}
+/*-- Remove Button Outline --*/
+button:focus, a:focus a.btn:focus {
+    outline : 0;
+    -webkit-appearance: none;
+    box-shadow: #fff3cd;
+    transition: all .6s ease;
+}
+button, a, a.btn, .svg-inline--fa {
+    transition: all, .6s ease;
+}
+.navbar.solid,
+.navbar.solid-toggle {
+    background-color: rgba(0, 0, 0,.7)!important;
+    transition: background-color 1s ease 0s;
+}
+
+/*============= LANDING PAGE =============*/
+
+/*--- Fixed Landing Page Section --*/
+.landing {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: table;
+    z-index: -1;
+}
+.home-wrap {
+    clip: rect(0, auto, auto, 0);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.home-inner {
+    background-image : url("../img/bg-2.png");
+    background-color: #183d67;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    will-change: transform;
+    display: table;
+}
+/*landing page caption*/
+.caption {
+    z-index: 1;
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    max-width: 100%;
+}
+.caption h1 {
+    font-size: 3rem;
+    letter-spacing: .3rem;
+    text-shadow: .1rem .1rem .8rem black;
+    padding-bottom: 1rem;
+    color: white;
+}
+.caption h2 {
+    font-size: 2.5rem;
+    text-shadow: .1rem .1rem .8rem black;
+    padding-bottom: 2rem;
+    color: #9fefe7;
+    /* font-weight: bold; */
+}
+.caption .btn-lg {
+    border-width: medium;
+    border-color: #0f6674;
+    padding: .8rem 1.5rem;
+    font-size: 1.1rem;
+}
+/*bouncing down arrow*/
+.arrow {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    size: 3rem;
+    animation: bounce 2s infinite;
+    -webkit-animation: bounce 2s infinite;
+}
+.down-arrow .svg-inline--fa {
+    color: #fff3cd;
+    font-size: 3rem;
+    opacity: .2;
+}
+.down-arrow .svg-inline--fa:hover {
+    opacity: .8;
+}
+
+/*============= About Git group SECTION =============*/
+.btn-sm {
+    border-width: medium;
+    border-radius: .9rem;
+    margin: 1rem;
+    padding: .5rem 1.1rem;
+    font-size: .9rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+#About_us .btn-write {
+    background-color: turquoise;
+    color: white;
+}
+#About_us .btn-sm:hover {
+    background-color: #0f6674;
+    color: white;
+}
+/*============= About-us carousel SECTION =============*/
+#About_us-carousel {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.about_us img {
+    border-radius: 50%;
+}
+.about_us img:hover {
+    transform: scale(.95);
+}
+blockqoute .svg-inline--fa {
+    margin: 1rem;
+    color: turquoise;
+}
+.aboutUs-hr {
+    border-top: .1rem;
+}
+button.owl-dot.active span,
+button.owl-dot:hover span {
+    background-color: turquoise!important;
+}
+
+/*============= Activity SECTION =============*/
+h2.heading {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 1.9rem;
+}
+.heading-underline {
+    width: 3rem;
+    height: .25rem;
+    background-color: turquoise;
+    margin: 0 auto 2rem;
+}
+
+.lead {
+    font-size: medium;
+    color: #1d2124;
+    text-align: justify;
+    text-indent: 1.5rem;
+    padding: 0 .9rem;
+}
+p::first-letter {
+    text-transform: uppercase;
+    font-size: 200%;
+     color: turquoise;
+}
+
+#Activities span {
+   color: turquoise;
+    margin-bottom: .6rem;
+}
+#Activities h3 {
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding-bottom: .4rem;
+
+}
+.btn-write2 {
+    background-color: turquoise;
+    color: white;
+}
+#Activities .btn-sm:hover {
+    background-color: #0f6674;
+    color: white;
+}
+
+
+/*============= Future Plan SECTION =============*/
+
+/*===== FIXED BACKGROUND IMG DARK =====*/
+.fixed {
+    position: relative;
+    width: 100%;
+}
+.fixed-wrap {
+    clip: rect(0, auto, auto, 0);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -9999;
+}
+.fixed-dark {
+    background-image: url("../img/image1.jpg");
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    will-change: transform;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    display: table;
+}
+#Future_Plan h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 1.9rem;
+    color: white;
+    letter-spacing:.2rem;
+}
+#Future_Plan p {
+    text-align: justify;
+    color: lightblue;
+    letter-spacing: .1rem;
+    padding-bottom: .5rem;
+    font-size: 1.3rem;
+}
+#Future_Plan .center {
+    text-align: center;
+}
+
+#Future_Plan .btn-write {
+    background-color: turquoise;
+    color: white;
+}
+#Future_Plan .btn-sm:hover {
+    background-color: #0f6674;
+    color: white;
+}
+
+
+
+/*--- iOS Fixed Background Image --*/
+
+
+/*============= Gallery SECTION =============*/
+
+.gallery-item img:hover {
+    transform: scale(1.3);
+    cursor: zoom-in;
+}
+.gallery-item img {
+    transition: transform .4s;
+}
+
+
+/*============= Summery SECTION =============*/
+
+.SUMMARY-column {
+    background: white;
+    height: 100%;
+    padding: 1.6rem;
+    border-top: .25rem solid turquoise;
+    box-shadow: 0 0 .8rem rgba(0, 0, 0, .075);
+    transition: transform .7s ease;
+    position: relative;
+    overflow: hidden;
+}
+.SUMMARY-column:hover {
+    transform: scale(1.1);
+}
+.SUMMARY-column h4 {
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+#SUMMARY h3 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+.Ribbon {
+    background-color: #6c757d;
+    color: white;
+    font-size: .8rem;
+    font-weight: bold;
+    height: 2rem;
+    width: 10rem;
+    padding-top: .4rem;
+    position: absolute;
+    transform: rotate(45deg);
+    right: -2.5rem;
+    top: 1.5rem;
+    box-shadow: 0 0 .2rem rgba(0, 0, 0, .25);
+}
+
+#SUMMARY .btn-write {
+    background-color: turquoise;
+    color: white;
+}
+#SUMMARY .btn-sm:hover {
+    background-color: #0f6674;
+    color: white;
+}
+
+/*============= TEAM SECTION FIXED BG IMG LIGHT =============*/
+
+/*--- Team Light Background Image --*/
+.fixed-light {
+    background-image: url("../img/IMG-20191207-WA0012.jpg");
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    will-change: transform;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    display: table;
+}
+.light {
+    background-color: rgba(255, 255, 255, .75);
+    padding: 5rem 0;
+    z-index: 1000;
+}
+.owl-stage {
+    display: flex;
+}
+.card {
+    height: 100%;
+    border-radius: 0;
+    text-align: center;
+    margin: 0 1rem;
+    border: .1rem solid rgba(0, 0, 0, .05);
+    box-shadow: 0 0 .8rem rgba(0, 0, 0, .075);
+    transition: transform .4s;
+    width: 70%;
+    /* padding: 2px 16px; */
+}
+.card:hover {
+    transform: scale(.95);
+}
+button.owl-dot.active span,
+button.owl-dot:hover span {
+    background-color: turquoise!important;
+}
+ul.social {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 1.9rem;
+}
+ul.social li {
+    display: inline;
+    padding: .8rem;
+}
+ul.social li a {
+    color: turquoise;
+    transition: all .2s ease;
+}
+ul.social li a:hover {
+    color: #0f6674;
+}
+
+/*============= SKILLS SECTION =============*/
+
+
+
+
+
+/*============= CONTACT SECTION =============*/
+.footer {
+    background-image: url("../img/contact1.jpg");
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    color: whitesmoke;
+}
+.row.outer {
+    background-color: rgba(57, 63, 70, .85);
+    padding: 1rem 2rem 3rem;
+}
+.footer img {
+    height: 2rem;
+    margin: 1.5rem 0;
+}
+.footer a
+.footer ul.social li a {
+    color: whitesmoke;
+}
+.footer ul.social a:hover {
+    color: #0f6674;
+}
+.footer h3 {
+    text-transform: uppercase;
+    margin: 1.5rem 0;
+}
+
+/*--- Contact Form --*/
+.form-group {
+    margin-bottom: 1.3rem;
+}
+.form-control {
+    background-color: #53595f;
+    border-radius: 0;
+    border: .15rem solid #6c757d;
+    color: white!important;
+    font-size: 1.1rem;
+}
+.form-control:focus {
+    background-color: #53595f;
+    border: .15rem solid #6c757d;
+}
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+    color: #b2b5b8!important;
+}
+hr.socket {
+    border-top: .2rem solid #666b71;
+    width: 100%;
+}
+/*============= TOP SCROLL =============*/
+
+
+/*============= MEDIA QUERIES =============*/
+
+/* Devices under 992px (lg) */
+
+
+/* Devices under 768px (md) */
+
+
+/* Devices under 576px (sm) */
+
+
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/

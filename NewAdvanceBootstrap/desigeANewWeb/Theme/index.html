@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <title>GiT</title>
+    <style>
+        .one-third {
+            width: 33%;
+            height: 5rem;
+            background-color: #007bff;
+            display: inline-block;
+        }
+        @media (max-width: 576px){
+            .one-third {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>hello!!</h1>
+    <div class="one-third">1</div>
+    <div class="one-third">2</div>
+    <div class="one-third">3</div>
+<br/><br/>
+<!--    container columns with Bootstrap-->
+    <div class="container">
+        <div class="row bg-secondary">
+            <div class="col-lg-5 py-4">1</div>
+            <div class="col-lg-5 bg-primary">2</div>
+            <div class="col-lg-5 bg-info">3</div>
+        </div>
+    </div>
+<!--container Fluid Complete Grid layout-->
+    <div class="container-fluid py-5">
+        <div class="row">
+            <div class="col-sm-6 col-md-4 col-lg-2 col-xl-1" style="background-color: #0d6efd; height: 5rem;
+             border: 1rem solid darkmagenta"></div>
+            <div class="col bg-danger">1</div>
+        </div>
+    </div>
+
+
+<script src="js/bootstrap.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+Course Support Resources ( Lecture #5 ) :
+
+W3C Validation:
+https://validator.w3.org
+
+Dirty Markup Cleaner:
+https://www.10bestdesign.com/dirtymarkup/
+
+Course Q/A Section:
+https://www.udemy.com/course/learn-bootstrap-4-by-creating-an-advanced-bootstrap-theme/learn/lecture/12517204#questions
+
+Google Stack Overflow Search:
+https://www.google.com/search?q=site%3Astackoverflow.com
+
+Stack Overflow Forum:
+https://stackoverflow.com/questions

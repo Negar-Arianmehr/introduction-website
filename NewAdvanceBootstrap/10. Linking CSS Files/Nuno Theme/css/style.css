@@ -1,0 +1,86 @@
+/*============= RESETS ============= font-family: 'Lato', sans-serif; */
+
+/*-- iPhone X Remove Gutters --*/
+
+/*-- Prevent Horizontal Scrolling & Font Style --*/
+
+/*--- Nav Scrolling Offset --*/
+
+/*--- Extra Bootstrap Column Padding --*/
+
+
+/*============= NAVIGATION =============*/
+
+
+/*-- Remove Button Outline --*/
+
+
+/*============= LANDING PAGE =============*/
+
+/*--- Fixed Landing Page Section --*/
+
+
+/*============= FEATURES SECTION =============*/
+
+
+/*===== FIXED BACKGROUND IMG DARK =====*/
+
+/*--- iOS Fixed Background Image --*/
+
+
+/*============= PORTFOLIO SECTION =============*/
+
+
+/*============= PRICING SECTION =============*/
+
+
+/*============= TEAM SECTION FIXED BG IMG LIGHT =============*/
+
+/*--- Team Light Background Image --*/
+
+
+/*============= SKILLS SECTION =============*/
+
+
+/*============= CLIENTS SECTION =============*/
+
+
+/*============= CONTACT SECTION =============*/
+
+
+/*--- Contact Form --*/
+
+
+/*============= TOP SCROLL =============*/
+
+
+/*============= MEDIA QUERIES =============*/
+
+/* Devices under 992px (lg) */
+
+
+/* Devices under 768px (md) */
+
+
+/* Devices under 576px (sm) */
+
+
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/

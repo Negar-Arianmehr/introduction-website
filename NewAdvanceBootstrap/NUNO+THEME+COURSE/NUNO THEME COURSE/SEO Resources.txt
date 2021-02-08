@@ -1,0 +1,17 @@
+SEO - Search Engine Optimization
+
+1.	Keyword Research with Tool
+	- https://neilpatel.com/ubersuggest/	- https://app.kwfinder.com/	- http://keywordshitter.com/	- https://ads.google.com/home/tools/keyword-planner/	- https://trends.google.com/trends/
+2.	Meta Tags Optimization
+
+	- Title Tag	- Meta Description
+
+	https://moz.com/blog/seo-meta-tags
+3.	Heading, Paragraph, Image & Alt Text Optimization
+4.	Hyperlink & Button Optimization
+5.	W3 Validation - https://validator.w3.org/
+
+
+	Moz Beginner's Guild To SEO:
+
+	https://moz.com/beginners-guide-to-seo

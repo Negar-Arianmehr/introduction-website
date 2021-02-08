@@ -1,0 +1,81 @@
+Visual Studio Code Setup ( Lecture #7 ) :
+
+
+Visual Studio Code: https://code.visualstudio.com/
+
+Shortcuts: https://code.visualstudio.com/docs/getstarted/keybindings
+
+(Code > Preferences > Keyboard Shortcuts, ⌘K ⌘S MACOS,  Ctrl+K Ctrl+S  WINDOWS)
+
+
+Extension I Use:
+
+Eagle Oceanic Next: https://marketplace.visualstudio.com/items?itemName=graf009.Eagle-Oceanic-Next
+
+Live Server: https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer
+
+____
+
+
+Emmet in VSCode: https://code.visualstudio.com/docs/editor/emmet
+
+Emmet Cheat Sheet: https://docs.emmet.io/cheat-sheet/
+
+
+____
+
+
+My "settings.json" Settings:
+
+{
+    "window.zoomLevel": 1,
+    "workbench.activityBar.visible": false,
+    "editor.fontSize": 14,
+    "editor.tabSize": 3,
+    "editor.minimap.enabled": false,
+    "breadcrumbs.enabled": false,
+    "editor.links": false,
+    "editor.hover.enabled": false,
+    "editor.quickSuggestions": true,
+    "editor.wrappingIndent": "indent",
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.colorDecorators": false,
+    "workbench.colorTheme": "Eagle Oceanic Next",
+
+    "editor.tokenColorCustomizations": {
+        "[Eagle Oceanic Next]": {
+            "comments": "#748691", // blue/gray
+            "numbers": "#ffc275", // orange
+            "types": "#e2e2e2" //light gray
+        }
+    },
+
+    "workbench.colorCustomizations": {
+        "editor.background": "#313D47",
+        "statusBar.background": "#303030",
+        "statusBar.noFolderBackground" : "#222225",
+        "statusBar.debuggingBackground": "#511f1f",
+        "editorIndentGuide.background": "#3F4950",
+        "editorIndentGuide.activeBackground":"#465259"
+    },
+    "workbench.editor.highlightModifiedTabs": false,
+    "workbench.editor.tabSizing": "shrink",
+    "window.nativeTabs": true,
+    "editor.quickSuggestionsDelay": 0,
+    "editor.tabCompletion": "on",
+    "editor.autoClosingBrackets": "beforeWhitespace",
+    "editor.dragAndDrop": false,
+    "editor.folding": false,
+    "editor.cursorBlinking": "smooth",
+    "editor.find.autoFindInSelection": true,
+    "editor.formatOnType": true,
+    "editor.parameterHints.enabled": false,
+    "editor.occurrencesHighlight": false,
+    "editor.matchBrackets": false,
+    "editor.suggest.maxVisibleSuggestions": 3,
+    "liveServer.settings.CustomBrowser": "chrome",
+    "files.autoSaveDelay": 1,
+    "liveServer.settings.wait": 1,
+    "editor.wordWrap": "on",
+    "liveServer.settings.donotShowInfoMsg": true
+  }
