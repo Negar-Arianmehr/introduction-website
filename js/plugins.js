@@ -1,3 +1,10 @@
+var button = document.querySelectorAll(".btn")
+
+button.forEach(btn => btn.addEventListener("click", function (e) {
+    document.querySelector("#myModal").insertAdjacentHTML("beforebegin",
+        "<div><h1>Thank you for visiting my website.</h1></div>")
+}))
+
 /*========== NAVBAR TRANSPARENT TO SOLID ==========*/
 function checkScroll() {
     if ($(window).scrollTop() >= 300) {
