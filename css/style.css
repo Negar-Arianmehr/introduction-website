@@ -12,7 +12,19 @@ html body {
     color: #383d41;
     font-size: medium;
 }
-
+.modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #2c9c91;
+    color: #043139;
+    font-size: 3.5rem;
+}
+.noShow {
+    display: none;
+}
 .text-color {
     color: turquoise;
 }
